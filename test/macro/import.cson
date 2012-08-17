@@ -19,7 +19,7 @@
     { name:'import', path:'macro/import/path/**/*.*', rename:{find:'t1',replace:'r1'} }
     { name:'verify', filemap:{ 'macro/import':{ path: { 'r1.txt':'t1' } } } }
 
-    { name:'import', path:'macro/import/path/empty.txt' }
+    { name:'import', path:'macro/import/empty/empty.txt', allowEmpty:true }
   ]
 }
 
